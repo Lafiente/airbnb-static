@@ -1,17 +1,13 @@
-.features h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.features p {
+.features {
+  p {
   font-weight: lighter;
   margin-bottom: 10px;
-}
-
-.features img {
+  }
+  h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  }
+  img {
   width: 100px;
-}
-
-.wrapper-grey {
-  background: #F4F4F4;
+  }
 }

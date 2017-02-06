@@ -1,0 +1,466 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <!-- For Bootstrap responsiveness -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Le Wagon Middleman boilerplate</title>
+
+    <link href="stylesheets/all.css" rel="stylesheet" />
+    <script src="javascripts/all.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="index">
+
+    <div class="navbar-wagon">
+  <!-- Logo -->
+<a class="navbar-wagon-brand" href="/">    <img src="images/lewagon.png" />
+</a>
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+    <!-- Search form -->
+    <form action="" class="navbar-wagon-search">
+      <input type="text" class="navbar-wagon-search-input" placeholder="Search something">
+      <button type="submit" class="navbar-wagon-search-btn">
+        <i class="fa fa-search"></i>
+      </button>
+    </form>
+
+    <!-- Text link -->
+    <a href="https://www.lewagon.com" class="navbar-wagon-item navbar-wagon-link">Wagon</a>
+
+    <!-- Text link -->
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Team</a>
+
+    <!-- Notification link-->
+    <a href="" class="navbar-wagon-item navbar-wagon-link">
+      <div class="badge-container">
+        <i class="fa fa-envelope-o"></i>
+        <div class="badge badge-blue">3</div>
+      </div>
+    </a>
+
+    <!-- Profile picture and dropdown -->
+    <div class="navbar-wagon-item">
+      <div class="dropdown">
+        <img src="http://placehold.it/50x50" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
+        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Button (call-to-action) -->
+    <a href="" class="navbar-wagon-item navbar-wagon-button btn">Post stuff</a>
+  </div>
+
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Some mobile link</a></li>
+        <li><a href="#">Other one</a></li>
+        <li><a href="#">Other one</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+    <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Airbnb home</title>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/background.jpg');">
+      <div class="banner-content">
+        <h1>BIENVENUE CHEZ VOUS</h1>
+        <p>Non, c'est faux. Néanmoins, on a des studios de 9m² à te proposer.</p>
+        <form class="form-inline">
+          <div class="form-group">
+            <input onfocus="(this.type='date')" class="form-control" id="checkin" placeholder="Checkin">
+          </div>
+          <div class="form-group">
+            <input onfocus="(this.type='date')" class="form-control" id="checkout" placeholder="Checkout">
+          </div>
+
+          <select class="form-control">
+            <option value="1">1 paille</option>
+            <option value="2">2 pailles</option>
+            <option value="3">3 pailles</option>
+          </select>
+          <a href='#' class="btn btn-primary">Appart miteux</a>
+        </form>
+      </div>
+    </div>
+    <!-- Your features code -->
+    <div class="text-center padded features">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <img src="images/beer.png" alt="Bière">
+            <h2>La pinte</h2>
+            <p>Tu sombreras dedans.</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <img src="images/dollar.png" alt="Dollar">
+            <h2>Le flouz</h2>
+            <p>Tu n'en as plus.</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <img src="images/globe.png" alt="Globe">
+            <h2>Le voyage</h2>
+            <p>Jusqu'à 100m de chez tes parents.</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <img src="images/heart.png" alt="Coeur">
+            <h2>L'amour</h2>
+            <p>Bon courage.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Your cards code -->
+    <div class="wrapper-grey padded">
+      <div class="container">
+        <h2 class="text-center">Ton prochain petit toit</h2>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">
+            <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/card-paris.jpg');">
+              <div class="card-category">L.A. - Louis Aragon</div>
+              <div class="card-description">
+                <h2>La cave du bon vieux Seb</h2>
+                <p>Superbe tapis confortable vue mer</p>
+              </div>
+              <img class="card-user avatar-large" src="images/seb.jpg">
+              <a class="card-link" href="#"></a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/card-london.jpeg');">
+              <div class="card-category">London Maggle</div>
+              <div class="card-description">
+                <h2>La chambre de bonne de Romain</h2>
+                <p>Petit cocon pour petite personne</p>
+              </div>
+              <img class="card-user avatar-large" src="images/romain.jpg">
+              <a class="card-link" href="#"></a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/card-brussels.jpeg');">
+              <div class="card-category">Molenbeek</div>
+              <div class="card-description">
+                <h2>T3 partagée d'Annette</h2>
+                <p>Quartier animé</p>
+              </div>
+              <img class="card-user avatar-large" src="images/anne.jpg">
+              <a class="card-link" href="#"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Your newsletter code -->
+    <div class="text-center padded">
+      <h2>Prends de nos nouvelles, t'as vu.</h2>
+      <p>Laisse ton e-mail et on t'harcèlera pour te proposer de fausses offres.</p>
+      <form action="#" class="form-inline">
+      <input type="email" class="form-control" placeholder="basile@gmail.com">
+      <input type="submit" value="Soumettre" class="btn btn-primary">
+      </form>
+    </div>
+    <!-- Your map code -->
+    <div id="map" style="width: 100%; height: 400px;"></div>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+    <script type="text/javascript">
+    var myLatlng = new google.maps.LatLng(48.8655909, 2.378983);
+
+    var myOptions = {
+      zoom: 16,
+      center: myLatlng,
+      scrollwheel: false,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      styles: [
+    {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#87bcba"
+            },
+            {
+                "saturation": -37
+            },
+            {
+                "lightness": -17
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "all",
+        "stylers": []
+    },
+    {
+        "featureType": "landscape.man_made",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#4f6b46"
+            },
+            {
+                "saturation": -23
+            },
+            {
+                "lightness": -61
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#d38bc8"
+            },
+            {
+                "saturation": -55
+            },
+            {
+                "lightness": 13
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#ffa200"
+            },
+            {
+                "saturation": 100
+            },
+            {
+                "lightness": -22
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#d38bc8"
+            },
+            {
+                "saturation": -55
+            },
+            {
+                "lightness": -31
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#f69d94"
+            },
+            {
+                "saturation": 84
+            },
+            {
+                "lightness": 9
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#d38bc8"
+            },
+            {
+                "saturation": 45
+            },
+            {
+                "lightness": 36
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.country",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#d38bc8"
+            },
+            {
+                "saturation": 45
+            },
+            {
+                "lightness": 36
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.land_parcel",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#d38bc8"
+            },
+            {
+                "saturation": 45
+            },
+            {
+                "lightness": 36
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.government",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#d38bc8"
+            },
+            {
+                "saturation": 35
+            },
+            {
+                "lightness": -19
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.school",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#d38bc8"
+            },
+            {
+                "saturation": -6
+            },
+            {
+                "lightness": -17
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#b2ba70"
+            },
+            {
+                "saturation": -19
+            },
+            {
+                "lightness": -25
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    }
+]
+    };
+
+    var map = new google.maps.Map(document.getElementById('map'), myOptions);
+    var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: "You are here!"
+    });
+    </script>
+    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+  </body>
+</html>
+
+    <!-- _footer.erb -->
+
+<div id="footer">
+      <ul class="list-inline">
+        <li><a href="#"><i class="fa fa-credit-card" aria-hidden="true"></i>
+        </a></li>
+        <li><a href="#"><i class="fa fa-hand-spock-o" aria-hidden="true"></i>
+        </a></li>
+        <li><a href="#"><i class="fa fa-hand-o-right" aria-hidden="true"></i>
+        </a></li>
+        <li><a href="#"><i class="fa fa-ambulance" aria-hidden="true"></i>
+        </a></li>
+      </ul>
+      <p>Ce site est faux. Aucun remboursement ne sera fait.</p>
+    </div>
+
+  </body>
+</html>
